@@ -1,0 +1,46 @@
+.footer-copyright {
+    background-color: rgba(255, 255, 255, 0.22);
+    padding: 1.5rem 4rem;
+    color: whitesmoke;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: rgba(255, 255, 255, 0.11);
+    color: whitesmoke;
+    padding: 5rem 0.5rem 10rem;
+    font-size: 1.25rem;
+}
+
+.footer-nav > div {
+    padding-top: 1rem;
+}
+
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.nav ul li a:hover {
+    color: #287094;
+}
+
+.nav ul li, .contacts div {
+    margin-bottom: 0.75rem;
+}
+
+.logo{
+    width: 15rem;
+    background-image: url('../assets/logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
