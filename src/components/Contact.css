@@ -1,0 +1,16 @@
+.contact-container > h2 {
+    color: #FFFFFF;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.map-address-container > iframe {
+    border-radius: 1.25rem;
+    max-width: 450px;
+    width: 80%;
+}
+
+.contact-info {
+    color: #FFFFFF;
+    font-size: 1.25rem;
+}
