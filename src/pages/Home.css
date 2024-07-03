@@ -5,21 +5,31 @@
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
+    position: relative;
+    z-index: 1;
 }
 
-/* width */
-::-webkit-scrollbar {
-    width: 20px;
+.body-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
 }
 
-/* Track */
-::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px grey;
-    border-radius: 10px;
+body::-webkit-scrollbar {
+    width: 1rem; /* Adjust the width of the scrollbar */
 }
 
-/* Handle */
-::-webkit-scrollbar-thumb {
-    background: grey;
-    border-radius: 10px;
+body::-webkit-scrollbar-track {
+    background: #1a1a1a; /* Dark color for the track */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #555; /* Dark color for the thumb */
+    border-radius: 10px; /* Round the corners */
+    border: 2px solid #1a1a1a; /* Border for the thumb */
 }
