@@ -1,0 +1,8 @@
+.card-comp {
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.11);
+    gap: 2rem;
+    width: 85%;
+    border-radius: 2rem;
+    color: whitesmoke;
+}
