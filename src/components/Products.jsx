@@ -7,13 +7,13 @@ import productImage from '../assets/products-img.png';
 
 export default function Products() {
     return (
-        <div id='products'>
-            <div className='d-flex flex-column flex-md-row'>
+        <div id='products' className='mx-3 d-flex flex-column justify-content-center align-items-center'>
+            <div className='d-flex flex-column flex-md-row justify-content-center align-items-center my-3'>
                 <LineWithHeader header={"products"} width='100px' />
                 <p style={{ maxWidth: '740px', marginLeft: '1rem', color: 'whitesmoke', marginBottom: '0'}}>At Acquire-G Printing Supply, we offer a wide range of products to cater to all your printing needs:</p>
             </div>
-            <div>
-                <div>
+            <div className='d-flex flex-column justify-content-center align-items-center gap-3 flex-xxl-row' style={{ width: "90%"}}>
+                <div className='d-flex flex-column justify-content-center align-items-center gap-3 flex-md-row flex-wrap' style={{ maxWidth: "600px"}}>
                     <Card header="Ink & Toner" maxWidth="264px" body={<p>Our premium ink and toner cartridges are compatible with all major printer brands. We ensure vibrant colors and sharp text with every print, helping you achieve professional-grade results every time.</p>} lineWidth='0px' />
                     <Card header="Paper Products" maxWidth="264px" body={<p>From standard copy paper to specialty photo paper, we have an extensive selection of paper products. Whether you need paper for everyday use or for high-quality printing projects, we've got you covered.</p>} lineWidth='0px' />
                     <Card header="Printers & Scanners" maxWidth="264px" body={<p>Explore our collection of top-performing printers and scanners from leading manufacturers. We offer a variety of models to suit different needs, from home offices to large corporate environments.</p>} lineWidth='0px' />
