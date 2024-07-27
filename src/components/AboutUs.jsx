@@ -26,17 +26,17 @@ export default function AboutUs() {
                             <p className='text-center'>Quality</p>
                         </div>
                         <div className='d-flex flex-column'>
-                            <img src={quality} style={{ width: "72px", height: "72px"}} />
+                            <img src={integrity} style={{ width: "72px", height: "72px"}} />
                             <p className='text-center'>Quality</p>
                         </div>
                     </div>
                     <div className='d-flex flex-row justify-content-around'>
                         <div className='d-flex flex-column'>
-                            <img src={quality} style={{ width: "72px", height: "72px"}} />
+                            <img src={customer} style={{ width: "72px", height: "72px"}} />
                             <p className='text-center'>Quality</p>
                         </div>
                         <div className='d-flex flex-column'>
-                            <img src={quality} style={{ width: "72px", height: "72px"}} />
+                            <img src={innovation} style={{ width: "72px", height: "72px"}} />
                             <p className='text-center'>Quality</p>
                         </div>
                     </div>
