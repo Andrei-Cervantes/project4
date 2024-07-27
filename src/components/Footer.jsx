@@ -9,10 +9,10 @@ export default function Footer() {
                 <div className="logo"></div>
                 <div className="nav">
                     <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="">About Us</a></li>
-                        <li><a href="">Products</a></li>
-                        <li><a href="">Services</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#aboutus">About Us</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#services">Services</a></li>
                         <li><a href="#contact">Contact Us</a></li>
                     </ul>
                 </div>

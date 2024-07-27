@@ -10,7 +10,7 @@ import customer from '../assets/AboutUsIcons/support-img.png';
 
 export default function AboutUs() {
     return (
-        <div>
+        <div id='aboutus'>
             <div>
                 <LineWithHeader header={"about us"} />
                 <div>

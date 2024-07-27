@@ -5,7 +5,7 @@ import Line from './UI/Line';
 
 export default function Contact() {
     return (
-        <div className='contact-container'>
+        <div className='contact-container' id='contact'>
             <div className='flex align-items-center'> 
                 <Line header={"contact us"} />
             </div>

@@ -7,7 +7,7 @@ import productImage from '../assets/products-img.png';
 
 export default function Products() {
     return (
-        <div>
+        <div id='products'>
             <div className='d-flex flex-column flex-md-row'>
                 <LineWithHeader header={"products"} width='100px' />
                 <p style={{ maxWidth: '740px', marginLeft: '1rem', color: 'whitesmoke', marginBottom: '0'}}>At Acquire-G Printing Supply, we offer a wide range of products to cater to all your printing needs:</p>
