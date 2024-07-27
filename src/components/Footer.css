@@ -1,5 +1,7 @@
 .footer-copyright {
     background-color: rgba(255, 255, 255, 0.22);
+    backdrop-filter: blur(60px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
     padding: 1.5rem 4rem;
     color: whitesmoke;
 }
@@ -9,6 +11,8 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     background-color: rgba(255, 255, 255, 0.11);
+    backdrop-filter: blur(60px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
     color: whitesmoke;
     padding: 5rem 0.5rem 10rem;
     font-size: 1.25rem;

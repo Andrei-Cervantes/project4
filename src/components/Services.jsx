@@ -4,7 +4,7 @@ import Card from './UI/Card';
 
 export default function Services() {
     return (
-        <div id='services' className='mx-3 d-flex flex-column justify-content-center align-items-center gap-3'>
+        <div id='services' className='mx-3 my-5 d-flex flex-column justify-content-center align-items-center gap-3'>
             <div className='d-flex flex-column flex-md-row my-3'>
                 <LineWithHeader header={"services"} width='100px' />
                 <p style={{ maxWidth: '740px', marginLeft: '1rem', color: 'whitesmoke', marginBottom: '0'}}>At Acquire-G Printing Supply, we go beyond providing high-quality products. We offer a range of services designed to meet all your printing needs and ensure your operations run smoothly. Our team of experts is dedicated to delivering exceptional service and support, making us your trusted partner in the printing industry.</p>

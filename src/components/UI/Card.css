@@ -1,6 +1,7 @@
 .card-comp {
     padding: 1rem;
     background-color: rgba(255, 255, 255, 0.11);
+    border: 1px solid rgba(255, 255, 255, 0.01);
     gap: 2rem;
     width: 95%;
     border-radius: 2rem;
