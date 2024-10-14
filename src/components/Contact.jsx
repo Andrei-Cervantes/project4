@@ -16,7 +16,7 @@ export default function Contact() {
       </div>
       <div className="contact-info-container justify-center justify-md-space-between">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3859.7726093668625!2d121.03100407510746!3d14.668841985825669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b6d5c0888283%3A0xde7fa7551eedaa93!2sMetro%20North%20Medical%20Center%20Hospital!5e0!3m2!1sen!2sph!4v1719994078913!5m2!1sen!2sph"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d482.37811438818574!2d121.0552399423561!3d14.7111831299048!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b0ed2145f7fb%3A0xcdcb8a402a3ea289!2s19%2C%20215%20Dollar%2C%20Novaliches%2C%20Quezon%20City%2C%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1728916622156!5m2!1sen!2sph"
           allowfullscreen=""
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
@@ -74,8 +74,7 @@ export default function Contact() {
             </div>
           </div>
           <p className="address-info">
-            123 Medical Avenue, Barangay Health Center, Metroville City, Metro
-            Manila, Philippines
+            Lot 19-B, Blk 215, Dollar St. North Fairview, Quezon City
           </p>
         </div>
       </div>

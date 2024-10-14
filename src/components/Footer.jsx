@@ -45,7 +45,6 @@ export default function Footer() {
           Copyright &copy; {new Date().getFullYear()} Eight-P Medical Equipment
           and Supplies Trading. All Rights Reserved.
         </div>
-        <div className="hire-devs">Hire Developers</div>
       </div>
     </div>
   );
